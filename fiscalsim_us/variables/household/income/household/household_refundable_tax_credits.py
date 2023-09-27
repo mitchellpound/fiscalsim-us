@@ -12,6 +12,7 @@ class household_refundable_tax_credits(Variable):
         "ca_refundable_credits",  # California.
         "il_refundable_credits",  # Illinois.
         "ks_refundable_credits",  # Kansas.
+        "la_refundable_credits",  # Louisianna
         "ma_refundable_credits",  # Massachusetts.
         "md_refundable_credits",  # Maryland.
         "mn_refundable_credits",  # Minnesota.
@@ -22,6 +23,7 @@ class household_refundable_tax_credits(Variable):
         "ny_refundable_credits",  # New York.
         # Skip PA, which has no refundable credits.
         "ut_refundable_credits",  # Utah.
+        "va_refundable_credits",  # Virginia
         "wa_refundable_credits",  # Washington.
         "nyc_refundable_credits",  # New York City.
     ]
