@@ -1,7 +1,7 @@
 from fiscalsim_us.model_api import *
 
 
-class co_total_subtractions(Variable):
+class co_pension_subtraction(Variable):
     value_type = float
     entity = TaxUnit
     label = "Colorado total subtractions from income"
@@ -10,8 +10,6 @@ class co_total_subtractions(Variable):
     reference = (
     )
     defined_for = StateCode.CO
-    adds = [
-        "us_govt_interest",
 
-        "taxable_pension_income"
-    ]
+    def formula(tax_unit, period, parameters):
+        pass

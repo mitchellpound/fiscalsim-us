@@ -1,0 +1,11 @@
+description: Colorado only allows taxpayers to subtract this portion of social security benefits from taxable income under the age limit
+values:
+  2021-01-01:
+    - 20_000
+
+metadata:
+  unit: currency-USD
+  label: Colorado social security subtraction limit
+  reference:
+  - title: 104 Book, Colorado Individual Income Tax Filing Guide
+    href: https://tax.colorado.gov/sites/tax/files/documents/DR_104_Book_2022.pdf
