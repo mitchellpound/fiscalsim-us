@@ -1,0 +1,27 @@
+description: Colorado only allows taxpayers to subtract pension income up to this maximum depending on age
+
+metadata:
+  type: single_amount
+  period: year
+  threshold_unit: years
+  amount_unit: currency-USD
+  label: Colorado pension subtraction maximum
+  reference:
+  - title: Colorado Individual Income Tax Guide (page 6)
+    href: https://tax.colorado.gov/sites/tax/files/documents/Individual_Income_Tax_Guide_Mar_2023.pdf
+  - title: 104 Book, Colorado Individual Income Tax Filing Guide (page 11)
+    href: https://tax.colorado.gov/sites/tax/files/documents/DR_104_Book_2022.pdf
+
+brackets:
+  - threshold:
+      2021-01-01: 0
+    amount:
+      2021-01-01: 0
+  - threshold:
+      2021-01-01: 55
+    amount:
+      2021-01-01: 20_000
+  - threshold:
+      2021-01-01: 65
+    amount:
+      2021-01-01: 24_000

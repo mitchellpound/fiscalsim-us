@@ -5,6 +5,7 @@ class co_other_subtractions(Variable):
     """
     Colorado other subtractions from income. These include:
     - Military Retirement Subtraction
+    - Colorado Agricultural Land Capital Gain Subtraction
     - CollegeInvest Contribution
     - Qualified Reservation Income
     - PERA/DPSRS Subtraction
